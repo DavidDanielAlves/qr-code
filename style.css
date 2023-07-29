@@ -26,6 +26,9 @@ body {
     align-items: center;
 }
 
+.container {
+}
+
 .principal__secao {
     background-color: var(--branco);
     display: flex;
@@ -54,7 +57,7 @@ body {
     padding: 0 2em;
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 1440px) {
     
     .principal__secao {
         width: 45%;
@@ -62,3 +65,15 @@ body {
     }
 
 }
+
+@media screen and (min-width: 500px) {
+    
+    .principal__secao {
+        width: 45%;
+        margin: auto;
+    }
+
+}
+
+
+
